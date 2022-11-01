@@ -1,13 +1,37 @@
 .succulent {
-  border: solid #645BA4;
+  border: 4px solid #645BA4;
+  margin: 10%;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #A45B76;
+  color: #5BA489;
+  box-sizing: border-box;
 }
 
 .dave {
-  border: solid #A45B76;
+  border: 4px solid #A45B76;
+  margin: 10%;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #5BA489;
+  color: #645BA4;
+  box-sizing: border-box;
 }
 
 .pothos {
-  border: solid #5BA489;
+  border: 4px solid #5BA489;
+  margin: 10%;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #645BA4;
+  color: #A45B76;
+  box-sizing: border-box;
 }
 
 .column {
@@ -26,4 +50,22 @@
   width: 70%;
   height: auto;
   display: block;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 300%;
+}
+
+body {
+  background-color: #9BA45B;
+  font-family: 'Times New Roman', Times, serif;
 }
