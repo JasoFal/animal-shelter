@@ -1,0 +1,29 @@
+.succulent {
+  border: solid #645BA4;
+}
+
+.dave {
+  border: solid #A45B76;
+}
+
+.pothos {
+  border: solid #5BA489;
+}
+
+.column {
+  float: left;
+  width: 30%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: all;
+}
+
+.centered-image {
+  margin: auto;
+  width: 70%;
+  height: auto;
+  display: block;
+}
